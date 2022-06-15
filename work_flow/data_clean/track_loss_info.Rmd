@@ -1,0 +1,23 @@
+---
+title: "track_loss_info"
+author: "Chen Xing"
+date: '2022-06-15'
+output: html_document
+---
+
+## 摘要
+计算被试逐题和个体总计数据丢失率
+
+### 包
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(data.table)
+```
+
+
+### 定义修正方法
+```{r, message=FALSE, warning=FALSE}
+dt <- fread("/Users/placenameday/R study/multi_fusion/data/raw/2166/2166_CBF0906EA21040910460816762471.csv")
+
+
+```
